@@ -1,0 +1,132 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  /* color: #4154f1; */
+  text-decoration: none;
+}
+
+a:hover {
+  /* color: #717ff5; */
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+.title {
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 42px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+section,
+footer {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 42px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.btn-orange {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 0.8rem 1.8rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover,
+.btn-orange-circle:hover {
+  background-color: var(--orange-hover);
+  color: var(--white);
+}
+
+.btn-orange-circle {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 0.5rem 1.8rem;
+  text-transform: capitalize;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .section-header p {
+    font-size: 2rem;
+    line-height: 32px;
+  }
+}
+
+.bg-lightblue {
+  background: var(--light-blue);
+}
+
+.title-label {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.colm-2 h4,
+.colm-2 p {
+  margin-bottom: 1.5rem;
+}
+
+.flex-3 h4 {
+  font-size: 1.3rem;
+  color: rgba(58, 65, 102, 0.7);
+}
+
+.flex-3 i {
+  font-size: 3rem;
+  color: var(--green);
+  margin: 2rem 0;
+}
+
+.flex-3 .label {
+  font-weight: 600;
+}
+
+.flex-3 .desc {
+  font-size: 0.9rem;
+}
