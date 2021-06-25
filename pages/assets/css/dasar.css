@@ -704,3 +704,9 @@ html {
   font-size: 13px;
   color: #fff;
 }
+
+del {
+  font-size: 0.3em;
+  display: block;
+  color: #888;
+}
